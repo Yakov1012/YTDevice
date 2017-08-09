@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YTDevice_Example' do
+  pod 'YTDevice', :path => '../'
+
+  target 'YTDevice_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
