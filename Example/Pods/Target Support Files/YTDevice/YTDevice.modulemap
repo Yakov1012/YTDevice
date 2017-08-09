@@ -1,0 +1,6 @@
+framework module YTDevice {
+  umbrella header "YTDevice-umbrella.h"
+
+  export *
+  module * { export * }
+}

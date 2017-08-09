@@ -1,0 +1,22 @@
+{
+  "name": "YTDevice",
+  "version": "0.1.0",
+  "summary": "A short description of YTDevice.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yakov1012/YTDevice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yakov1012": "1446486761@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Yakov1012/YTDevice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YTDevice/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_YTDevice_Example {
+  umbrella header "Pods-YTDevice_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
