@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'YTDevice_Example' do
-  pod 'YTDevice', :path => '../'
+    #pod 'YTDevice', :path => '../'
+  pod 'YTDevice', :podspec => '../YTDevice.podspec'  # 指定podspec文件
 
   target 'YTDevice_Tests' do
     inherit! :search_paths

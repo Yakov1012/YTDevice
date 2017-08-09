@@ -4,20 +4,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YTDevice (0.1.0)
+  - YTDevice (1.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - YTDevice (from `../`)
+  - YTDevice (from `../YTDevice.podspec`)
 
 EXTERNAL SOURCES:
   YTDevice:
-    :path: ../
+    :podspec: ../YTDevice.podspec
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YTDevice: 8e42f8ce13c19ceefceb4827034f806a0c449e47
+  YTDevice: 8b50b8c44bbeb42ebdfce6d8ab917e0ba9aea0c3
 
-PODFILE CHECKSUM: 9a030e402f5d2dbd40d55d737254f3e2e80ff8b1
+PODFILE CHECKSUM: 95d1d85967e5b8291c3269f7eb19ee7df60411ce
 
 COCOAPODS: 1.2.1
